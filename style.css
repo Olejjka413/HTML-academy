@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	background-color: #EFE6E4;
+	margin: 0;
+	color: #533738;
+}
+
+h1 {font-size: 3em;
+	font-weight: normal;
+	}
+
+h2 {font-size: 2em;
+	font-weight: normal;
+	text-align: center;}
+
+header {
+	width: 100%;
+	margin: 0;
+	background-image: url("header.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+figure {margin-top: 0;}
+
+
+nav {
+	padding: 30px;
+	margin: 0 60px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-wrap: wrap;
+}
+nav *  {
+	margin-top: 50px;
+	margin-left: 30px;
+	text-decoration: none;
+	color: #533738;
+	text-align: center;
+
+}
+span.phone{
+	font-size: 18px;
+	white-space: nowrap;
+}
+nav a {font-size: 18px;}
+nav a:hover{
+	text-decoration: underline;
+	color: red;
+}
+img.logo {width: 30px; }
+span.logo {font-size: 20px;
+margin-right: auto;
+margin-left: 10px;}
+
+
+.header-container 
+{	width: 600px;
+	margin-left: 10%;
+	padding-top: 60px;
+	padding-bottom: 200px;
+}
+.header-container p {
+	line-height: 30px;
+}
+button.leave-application{
+	background-color:  #CC8B86;
+	padding: 20px;
+	width: 45%;
+	font-size: 20px;
+	color: #533738;
+	border: none;
+}
+article.about-us {
+	margin: 10%;
+	margin-top: 80px;
+}
+.about-us div {display: flex;}
+.about-us div p {margin-left: 50px;
+margin-right: 100px;}
+section.works-done
+{
+	background-color: #8D7370;
+	display: flex;
+	justify-content: center;
+}
+section.works-done *
+{margin: 60px;
+color: white;
+text-align: center;
+font-size: 1,8em;
+line-height: 40px;
+}
+
+span.number-done{
+	font-size: 2em;
+}
+
+footer {
+	padding: 80px;
+	display: flex;
+}
+
+footer > span {
+	margin: 20px;
+	padding: 5px;
+}
+.adress {
+	margin-right: auto;
+}
