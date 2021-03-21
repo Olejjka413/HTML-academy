@@ -78,10 +78,20 @@ button.leave-application{
 article.about-us {
 	margin: 10%;
 	margin-top: 80px;
+
 }
-.about-us div {display: flex;}
+.about-us div {display: flex;
+	flex-wrap: wrap;
+padding 20px;}
+
 .about-us div p {margin-left: 50px;
 margin-right: 100px;}
+
+.about-us  div img{
+
+	width:500px;
+}
+
 section.works-done
 {
 	background-color: #8D7370;
